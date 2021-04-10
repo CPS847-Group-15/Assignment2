@@ -1,4 +1,6 @@
 # Assignment2
+[![Build Status](https://travis-ci.com/CPS847-Group-15/Assignment2.svg?branch=main)](https://travis-ci.com/CPS847-Group-15/Assignment2)
+
 For our assignment 2, we've created a simple web application which
 generates a simple index.html displaying "Hello World!". It can
 also tell a joke at the path `/joke`, and can play fizzbuzz at the
