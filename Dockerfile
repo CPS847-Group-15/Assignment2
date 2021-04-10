@@ -9,9 +9,10 @@ RUN pip install --upgrade pip
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY ./app/src .
+COPY app app
 
-CMD ["gunicorn", "--workers=2", "-b", "0.0.0.0:8080", "main:app", "&" ]
+
+CMD ["gunicorn", "--workers=2", "-b", "0.0.0.0:8080", "app.src.main:app", "&" ]
 
 # run with docker build -t test
 # docker run -it -p 8080:8080 test
