@@ -7,4 +7,4 @@ before_install:
   - docker build -t assignment2/app .
 
 script:
-  - docker run assignment2/app "python ./app/src/unittest.py"
+  - docker run assignment2/app python ./app/src/unittest.py
