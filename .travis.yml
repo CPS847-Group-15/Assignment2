@@ -8,7 +8,7 @@ before_install:
   - docker build -t assignment2/app .
 
 script:
-  - docker run assignment2/app coverage run -m unittest ./app/src/unittest
+  - docker run assignment2/app coverage run -m unittest app.src.unittest && coverage report
 
 after_script:
   - codecov

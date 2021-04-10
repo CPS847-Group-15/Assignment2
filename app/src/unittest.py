@@ -17,6 +17,13 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fb(35), "buzz", "Should return 'buzz'")
         self.assertEqual(fb(10010), "buzz", "Should return 'buzz'")
 
+    def test_fizz_buzz(self):
+        self.assertEqual(fb(15), "fizz buzz", "Should return 'fizz buzz'")
+        self.assertEqual(fb(30), "fizz buzz", "Should return 'fizz buzz'")
+        self.assertEqual(fb(45), "fizz buzz", "Should return 'fizz buzz'")
+        self.assertEqual(fb(105), "fizz buzz", "Should return 'fizz buzz'")
+        self.assertEqual(fb(120), "fizz buzz", "Should return 'fizz buzz'")
+
     def test_zero(self):
         self.assertEqual(fb(0), "0", "Should return '0'")
 
@@ -28,7 +35,3 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fb(16), "16", "Should return '16'")
         self.assertEqual(fb(64), "64", "Should return '64'")
         self.assertEqual(fb(164), "164", "Should return '164'")
-
-if __name__ == "__main__":
-    print("Hello World!")
-    unittest.main()
