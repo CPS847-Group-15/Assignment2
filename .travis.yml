@@ -8,3 +8,6 @@ before_install:
 
 script:
   - docker run assignment2/app python ./app/src/unittest.py
+
+after_script:
+  - codecov
