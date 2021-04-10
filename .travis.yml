@@ -11,4 +11,4 @@ script:
   - docker run assignment2/app coverage run ./app/src/unittest.py
 
 after_script:
-  - docker exec assignment2/app codecov
+  - docker run assignment2/app codecov
