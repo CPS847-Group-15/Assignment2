@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t Assignment2/app .
+  - docker build -t Assignment2-app .
 
 script:
-  - docker run Assignment2/app -c "python ./app/src/unittest.py"
+  - docker run Assignment2-app -c "python ./app/src/unittest.py"
