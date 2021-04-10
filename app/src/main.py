@@ -2,7 +2,7 @@ import requests
 from wsgiref.simple_server import make_server
 from urllib.parse import parse_qs
 
-from src.fizzbuzz import fb
+from app.src.fizzbuzz import fb
 
 def app(environ, start_response):
     """Application object"""
