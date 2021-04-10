@@ -1,0 +1,14 @@
+language: python
+codecov: true
+
+services:
+  - docker
+
+before_install:
+  - docker build -t assignment2/app .
+
+script:
+  - docker run assignment2/app coverage run -m unittest app.src.unittest
+
+after_script:
+  - codecov
