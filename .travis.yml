@@ -1,3 +1,5 @@
+language: python
+
 services:
   - docker
 
@@ -6,8 +8,4 @@ before_install:
 
 script:
   - mkdir shared
-  - docker run -v "$PWD/shared:/shared" assignment2/app /bin/sh -c "coverage run -m unittest app.src.unittest; mv .coverage shared"
-  - mv shared/.coverage .
-
-after_script:
-  - codecov
+  - docker run -v "$PWD/shared:/shared" assignment2/app /bin/sh -c "coverage run -m unittest app.src.unittest; mv .coverage shared; codecov"
