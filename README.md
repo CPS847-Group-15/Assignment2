@@ -13,6 +13,6 @@ will serve it using Gunicorn.
 
 Use the following commands to run it with Docker:
 ```bash
-$ docker build -t Assignment2 .
-$ docker run -it -p 8080:8080 Assignment2
+$ docker build -t assignment2 .
+$ docker run -it -p 8080:8080 assignment2
 ```
