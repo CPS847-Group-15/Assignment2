@@ -9,9 +9,8 @@ before_install:
 
 script:
   - mkdir shared
-  - docker run -v "$PWD/shared:/shared" assignment2/app /bin/sh -c "coverage run -m unittest app.src.unittest; coverage report; mv .coverage shared"
-  - mv shared/.coverage .
+  - docker run -v "$PWD/shared:/shared" assignment2/app /bin/sh -c "coverage run -m unittest app.src.unittest; coverage xml; mv coverage.xml shared"
+  - mv shared/coverage.xml .
 
 after_script:
-  - coverage report -i
   - codecov
