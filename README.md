@@ -19,7 +19,8 @@ $ docker run -it -p 8080:8080 assignment2
 
 # Snapshot of Travis CI Log Building and Testing Code
 
-![image](![image](https://user-images.githubusercontent.com/17459855/114327064-809f5700-9b05-11eb-99e4-e16072ca3264.png))
+
+![image](https://user-images.githubusercontent.com/17459855/114327081-91e86380-9b05-11eb-8b84-2aed6a97fed8.png)
 
 
 # Generated Logs when Containerizing Application
