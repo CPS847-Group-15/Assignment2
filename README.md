@@ -19,15 +19,14 @@ $ docker run -it -p 8080:8080 assignment2
 
 # Snapshot of Travis CI Log Building and Testing Code
 
-
 ![image](https://user-images.githubusercontent.com/17459855/114327081-91e86380-9b05-11eb-8b84-2aed6a97fed8.png)
 
 
 # Generated Logs when Containerizing Application
 
-![image](https://user-images.githubusercontent.com/17459855/114326955-21414700-9b05-11eb-9a1a-3e705d585b61.png)
+![image](https://user-images.githubusercontent.com/17459855/114327095-9f9de900-9b05-11eb-9d53-a7ad540ec965.png)
 
 
 # Snapshot of Codecov.io Report of Code
 
-![image](https://user-images.githubusercontent.com/17459855/114326974-2a321880-9b05-11eb-8581-53553f50085b.png)
+![image](https://user-images.githubusercontent.com/17459855/114327106-aaf11480-9b05-11eb-8eaf-efaf02034535.png)
