@@ -17,9 +17,11 @@ $ docker build -t assignment2 .
 $ docker run -it -p 8080:8080 assignment2
 ```
 
+
 # Snapshot of Travis CI Log Building and Testing Code
 
 ![image](https://user-images.githubusercontent.com/17459855/114327081-91e86380-9b05-11eb-8b84-2aed6a97fed8.png)
+
 
 
 # Generated Logs when Containerizing Application
@@ -27,9 +29,11 @@ $ docker run -it -p 8080:8080 assignment2
 ![image](https://user-images.githubusercontent.com/17459855/114327095-9f9de900-9b05-11eb-9d53-a7ad540ec965.png)
 
 
+
 # Snapshot of Codecov.io Report of Code
 
 ![image](https://user-images.githubusercontent.com/17459855/114327106-aaf11480-9b05-11eb-8eaf-efaf02034535.png)
+
 
 
 # Screenshot of Index.html on AWS Elastic Beanstalk along with URL box of browser
@@ -51,11 +55,13 @@ $ docker run -it -p 8080:8080 assignment2
 ![image](https://user-images.githubusercontent.com/17459855/114329357-1be7fa80-9b0d-11eb-95fd-f5a909c4276e.png)
 
 
+
 # Snapshot of Ubuntu VM Desktop within Host Machine
 
 ![image](https://user-images.githubusercontent.com/17459855/114329381-2dc99d80-9b0d-11eb-95bb-2de0fcabf018.png)
 
 ![image](https://user-images.githubusercontent.com/17459855/114329387-315d2480-9b0d-11eb-8cb4-a7fc0889402a.png)
+
 
 
 # AWS Lambda Function reading in and outputting JSON
