@@ -58,6 +58,8 @@ $ docker run -it -p 8080:8080 assignment2
 
 # Snapshot of Ubuntu VM Desktop within Host Machine
 
+![image](https://user-images.githubusercontent.com/17459855/114334448-92d6c080-9b18-11eb-9d60-05cb75927a38.png)
+
 ![image](https://user-images.githubusercontent.com/17459855/114329381-2dc99d80-9b0d-11eb-95bb-2de0fcabf018.png)
 
 ![image](https://user-images.githubusercontent.com/17459855/114329387-315d2480-9b0d-11eb-8cb4-a7fc0889402a.png)
