@@ -16,3 +16,17 @@ Use the following commands to run it with Docker:
 $ docker build -t assignment2 .
 $ docker run -it -p 8080:8080 assignment2
 ```
+
+# Snapshot of Travis CI Log Building and Testing Code
+
+![image](https://user-images.githubusercontent.com/17459855/114326934-125a9480-9b05-11eb-83db-74e50ef6167d.png)
+
+
+# Generated Logs when Containerizing Application
+
+![image](https://user-images.githubusercontent.com/17459855/114326955-21414700-9b05-11eb-9a1a-3e705d585b61.png)
+
+
+# Snapshot of Codecov.io Report of Code
+
+![image](https://user-images.githubusercontent.com/17459855/114326974-2a321880-9b05-11eb-8581-53553f50085b.png)
